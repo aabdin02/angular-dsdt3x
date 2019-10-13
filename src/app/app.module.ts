@@ -23,3 +23,5 @@ import { FinancialDataService } from "./services/financial-data.service";
   entryComponents: []
 })
 export class AppModule {}
+
+

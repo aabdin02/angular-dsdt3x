@@ -17,6 +17,7 @@ export class FinancialChartOverviewComponent {
         this.stocksData = [
             this.dataService.getAmzn()
         ];
+        console.log(this.dataService.getAmzn())
         this.calloutsData = this.getCallouts(this.stocksData);
     }
 
