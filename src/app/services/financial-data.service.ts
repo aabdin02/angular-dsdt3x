@@ -66,7 +66,7 @@ export class FinancialDataService {
             high: Number(arr[key].high),
             low: Number(arr[key].low),
             close: Number(arr[key].close),
-            volume: Number(arr[key].volume)})
+            volume: Number(arr[key].volume)}),
             jsonDataKeys.push(key);
           });   
       }

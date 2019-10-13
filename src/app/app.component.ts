@@ -9,7 +9,6 @@ export class AppComponent {
     public title = "Samples";
     name = 'Angular 5';
     jsonDataKeys : any=[];
-
     jsonData : any =[{
     "2013, 1, 1": {
         "open": "268.93",
